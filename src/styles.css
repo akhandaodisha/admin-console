@@ -1,0 +1,43 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+body {
+    background-image: url("./assets/blossom.jpg");
+}
+
+*:focus {
+    outline: none !important;
+    border: 0 !important;
+}
+
+label {
+    margin-bottom: 0;
+}
+
+a:not(.mat-button):not(.mat-raised-button):not(.mat-fab):not(.mat-mini-fab):not([mat-list-item]) {
+    color: #3f51b5;
+}
+
+.facebook-icon-color {
+    color: #3B5998;
+}
+
+.twitter-icon-color {
+    color: #1DA1F2;
+}
+
+.youtube-icon-color {
+    color: #FF0000;
+}
+
+.users-icon-color {
+    color: rgb(0, 180, 24);
+}
+
+.success-icon-color {
+    color: rgb(0, 180, 24);
+}
+
+mat-card-title {
+    font-weight: 600!important;
+}

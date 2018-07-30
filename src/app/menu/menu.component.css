@@ -1,0 +1,46 @@
+button {
+    font-size: 18px;
+}
+
+mat-icon {
+    line-height: 20px!important;
+}
+
+.joinus, .donateus {
+    margin-left: 18px;
+}
+
+.donateus {
+    color: black!important;
+}
+
+.mat-raised-button {
+    font-weight: bold;
+}
+
+.social {
+    margin-left: 25%;
+}
+
+/* .navbar-inner {
+    background:transparent;
+} */
+
+.nav-item {
+    color: white;
+    font-size: 20px!important;
+}
+
+.bars-color {
+    color: white;
+}
+
+.home-icon {
+    margin-top: -2px;
+}
+
+@media only screen and (max-width: 600px) {
+    .home-icon {
+        display: none;
+    }
+}

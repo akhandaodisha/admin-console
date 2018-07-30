@@ -1,0 +1,175 @@
+    {
+        "config": {
+            "siteAvailable": true,
+            "corsEnableUrl":"https://cors-anywhere.herokuapp.com/",
+            "firebaseConfig": {
+                "apiKey": "AIzaSyAYpIGTFE77tjQ_os8FqB96J_N9uuIOftw",
+                "authDomain": "akhandaodisha-memberdb.firebaseapp.com",
+                "databaseURL": "https://akhandaodisha-memberdb.firebaseio.com",
+                "projectId": "akhandaodisha-memberdb",
+                "storageBucket": "akhandaodisha-memberdb.appspot.com",
+                "messagingSenderId": "783468226874"
+            },
+            "wordpressConfig":{
+                "wordpressUrl": "https://public-api.wordpress.com/wp/v2/sites/akhandaodisha955678422.wordpress.com/posts/",
+                "wordpressParams": {
+                    "per_page": 6
+                }
+            },
+            "facebookApi": {
+                "facebookUrl": "https://graph.facebook.com/v3.0/",
+                "facebookPageId": "354845204931461",
+                "facebookApiParams": {
+                    "fields": "fan_count",
+                    "access_token": "EAAUoW6fv8OMBAEfSFwDgWLqUSj7spmZBLfCVCr5ZBktAqhPi5RpnotDypjbXZB4m89HBXUmRebPxZCrD4oRnIAfmPhxxdhoySZBKPeVLfoz8avKGEg69I3yeh3U8ZBS5wWRSUzYKQ6kVCVWQjrnZAY0iaZCaM56Yt50bM9bVNmriYwZDZD"
+                }
+            },
+            "twitterApi": {
+                "twitterUrl": "https://cdn.syndication.twimg.com/widgets/followbutton/info.json?screen_names=amreshtech",
+                "twitterApiParams": {
+                    "screen_names": "amreshtech"
+                }
+            },
+            "youtubeApi": {
+                "youtubeUrl": "https://www.googleapis.com/youtube/v3/channels",
+                "youtubeHeader": {
+                    "key": "198517062961-m9atp2gj6pjagtqr94qrhfrofoneodhu.apps.googleusercontent.com",
+                    "value": "7YZEYC_qsCAhD07P0-GsQttJ"
+                },
+                "youtubeApiParams": {
+                    "id": "UCxxqAIGzFcw12FsIp1xjVbQ",
+                    "part": "statistics",
+                    "key": "AIzaSyB20sUi481Avr5tXWQRkM3ZZvqJxVcDOm4"
+                }
+            },
+            "menuData": {
+                "menuItems": [{
+                    "icon": "fingerprint", "iconColor": "red", "text": "ଆମ ବିଷୟରେ", "url": "aboutus"
+                }, {
+                    "icon": "navigation", "iconColor": "#00f3ff", "text": "ଆମ ଲକ୍ଷ୍ୟ", "url": "ouraim"
+                }, {
+                    "icon": "phone", "iconColor": "#56ff00", "text": "ଯୋଗାଯୋଗ", "url": "contactus"
+                }, {
+                    "icon": "edit", "iconColor": "#ff9900", "text": "ବ୍ଲଗ୍", "url": "blog"
+                }],
+                "socialIcons": [{
+                    "icon": "facebook", "iconColor": "#ffffff", "url": "https://www.facebook.com/akhandaodisha"
+                }, {
+                    "icon": "twitter", "iconColor": "#00c4ff", "url": "https://www.twitter.com/akhandaodisha"
+                }, {
+                    "icon": "youtube", "iconColor": "red", "url": "https://www.youtube.com/channel/UCxxqAIGzFcw12FsIp1xjVbQ"
+                }]
+            },
+            "header": {
+                "statictext": "ଅଖଣ୍ଡ ଓଡ଼ିଶା",
+                "subtitletext": "ଵୃହତ ଓଡ଼ିଶା, ସମୃଦ୍ଧ ଓଡ଼ିଶା"
+            },
+            "footer": "ଅଖଣ୍ଡ ଓଡ଼ିଶା ସଙ୍ଗଠନ",
+            "homeData": {
+                "homeSocialIcons": [{
+                    "iconName": ["fab", "facebook-f"], "class": "facebook-icon-color", "number": 0, "url": "https://www.facebook.com/akhandaodisha"
+                }, {
+                    "iconName": ["fab", "twitter"], "class": "twitter-icon-color", "number": 0, "url": "https://www.twitter.com/akhandaodisha"
+                }, {
+                    "iconName": ["fab", "youtube"], "class": "youtube-icon-color", "number": 0, "url": "https://www.youtube.com/channel/UCxxqAIGzFcw12FsIp1xjVbQ"
+                }, {
+                    "iconName": ["fas", "users"], "class": "users-icon-color", "number": 0, "url": ""
+                }],
+                "welcomeCard": {
+                    "welcomeCardSalutation": "ନମସ୍କାର",
+                    "welcomeCardContent": "ଓଡ଼ିଶାର ସର୍ବଵୃହତ ବିପ୍ଳବକୁ ଆପଣଙ୍କୁ ସୁସ୍ୱାଗତମ | ଆଜି ହିଁ ଆମ ସହିତ ଯୋଡ଼ି ହୁଅନ୍ତୁ କିମ୍ବା ଆମକୁ ଦାନ କରି ଅଖଣ୍ଡ ଓଡ଼ିଶାର ପ୍ରଗତିରେ ସାହାଯ୍ୟ କରନ୍ତୁ |"
+                }
+            },
+            "aboutPage": {
+                "pageTitle": "ଆମ ବିଷୟରେ",
+                "pageContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            },
+            "aimPage": {
+                "pageTitle": "ଆମ ଲକ୍ଷ୍ୟ",
+                "pageContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            },
+            "contactPage": {
+                "pageTitle": "ଯୋଗାଯୋଗ",
+                "staticContact": [{
+                    "icon": "mail", "text": "akhandaodisha@gmail.com"
+                }, {
+                    "icon": "phone", "text": "+919000000000"
+                }, {
+                    "icon": "account_balance", "text": "VIP Colony, IRC Village, Nayapalli, Bhubaneswar, Odisha 751015"
+                }],
+                "googleMapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3742.1116654997813!2d85.80089951449048!3d20.295644586400076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a19099bb022114b%3A0x33424c18f417bd29!2sBishwanath+Bhaban!5e0!3m2!1sen!2sin!4v1532667940358",
+                "successData": {
+                    "iconName": ["fas", "check-circle"],
+                    "class": "success-icon-color",
+                    "content": "ଧନ୍ୟବାଦ ! ଆମେ ଆପଣଙ୍କ ବାର୍ତ୍ତା ପାଇଁ ଯାଇଛୁ | ଆମେ ୪୮ ଭିତରେ ଆପଣଙ୍କୁ ଯୋଗାଯୋଗ କରିବୁ |"
+                },
+                "form": {
+                    "name": {
+                        "label": "ଆପଣଙ୍କ ନାମ",
+                        "hint": "ଏଠାରେ ନିଜର ନାମ ଲେଖନ୍ତୁ",
+                        "requiredError": "ଆପଣଙ୍କ ନାମ ଆବଶ୍ୟକ ଅଟେ"
+                    },
+                    "email": {
+                        "label": "ଆପଣଙ୍କ Email ଠିକଣା",
+                        "hint": "ଏଠାରେ ନିଜର Email ଠିକଣା ଲେଖନ୍ତୁ",
+                        "requiredError": "ଆପଣଙ୍କ Email ଠିକଣା ଆବଶ୍ୟକ ଅଟେ",
+                        "patternError": "ଦୟାକରି ସଠିକ Email ଠିକଣା ଲେଖନ୍ତୁ"
+                    },
+                    "phone": {
+                        "label": "ଆପଣଙ୍କ Phone Number",
+                        "hint": "ଏଠାରେ ନିଜର Phone Number ଲେଖନ୍ତୁ",
+                        "requiredError": "ଆପଣଙ୍କ Phone Number ଆବଶ୍ୟକ ଅଟେ",
+                        "patternError": "ଦୟାକରି ସଠିକ Phone Number ଲେଖନ୍ତୁ"
+                    },
+                    "message": {
+                        "label": "ଏଠାରେ ସଂକ୍ଷେପରେ ନିଜର ବାର୍ତ୍ତା ଲେଖନ୍ତୁ",
+                        "requiredError": "ଆପଣଙ୍କ ବାର୍ତ୍ତା ଆବଶ୍ୟକ ଅଟେ",
+                        "minError": "ଆପଣଙ୍କ ବାର୍ତ୍ତା ଅସମ୍ପୂର୍ଣ୍ଣ ଅଟେ",
+                        "maxError": "ଦୟାକରି ନିଜର ବାର୍ତ୍ତାକୁ ସଂକ୍ଷେପରେ ଲେଖନ୍ତୁ"
+                    },
+                    "submitText": "ବାର୍ତ୍ତା ପଠାନ୍ତୁ"
+                }
+            },
+            "donatePage": {
+                "pageTitle": "ଦାନ କରନ୍ତୁ",
+                "pageContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            },
+            "joinPage": {
+                "pageTitle": "ଅଖଣ୍ଡ ଓଡ଼ିଶାରେ ଯୋଗ ଦିଅନ୍ତୁ",
+                "joinButtonText": "ଯୋଗ ଦିଅନ୍ତୁ",
+                "form": {
+                    "skillList": [
+                        {"value": "ସ୍ୱାସ୍ଥ୍ୟ ସେବା", "viewValue": "ସ୍ୱାସ୍ଥ୍ୟ ସେବା"},
+                        {"value": "ସୂଚନା ଏବଂ ପ୍ରଯୁକ୍ତି ବିଦ୍ୟା", "viewValue": "ସୂଚନା ଏବଂ ପ୍ରଯୁକ୍ତି ବିଦ୍ୟା"},
+                        {"value": "ଭାଷା ଏବଂ ସାହିତ୍ୟ", "viewValue": "ଭାଷା ଏବଂ ସାହିତ୍ୟ"},
+                        {"value": "ସଂସ୍କୃତି ଏବଂ ପରମ୍ପରା", "viewValue": "ସଂସ୍କୃତି ଏବଂ ପରମ୍ପରା"},
+                        {"value": "ପର୍ଯ୍ୟଟନ", "viewValue": "ପର୍ଯ୍ୟଟନ"},
+                        {"value": "କୃଷି", "viewValue": "କୃଷି"},
+                        {"value": "ଅର୍ଥଶାସ୍ତ୍ର", "viewValue": "ଅର୍ଥଶାସ୍ତ୍ର"},
+                        {"value": "ଆଇନ", "viewValue": "ଆଇନ"},
+                        {"value": "ସୁରକ୍ଷା ବ୍ୟବସ୍ଥା", "viewValue": "ସୁରକ୍ଷା ବ୍ୟବସ୍ଥା"},
+                        {"value": "ଶିକ୍ଷା", "viewValue": "ଶିକ୍ଷା"}
+                    ],
+                    "date": {
+                        "label": "ଆପଣଙ୍କ ଜନ୍ମ ତାରିଖ",
+                        "hint": "ଏଠାରେ ଜନ୍ମ ତାରିଖ ଲେଖନ୍ତୁ",
+                        "requiredError": "ଆପଣଙ୍କ ଜନ୍ମ ତାରିଖ ଆବଶ୍ୟକ ଅଟେ"
+                    },
+                    "skill": {
+                        "label": "ଆପଣଙ୍କ ଦକ୍ଷତା",
+                        "hint": "ଏଠାରେ ନିଜର ଦକ୍ଷତା ଲେଖନ୍ତୁ",
+                        "requiredError": "ଆପଣଙ୍କ ଦକ୍ଷତା ଆବଶ୍ୟକ ଅଟେ"
+                    }
+        
+                }
+            },
+            "pageNotFoundPage": {
+                "icon": ["fas", "times-circle"],
+                "message": "ଏହି ପୃଷ୍ଠା ଟି ବର୍ତ୍ତମାନ ଉପଲବ୍ଦ ନାହିଁ !"
+            },
+            "underConstructionPage": {
+                "icon": ["fas", "users-cog"],
+                "message": "ଆମେ ଶୀଘ୍ର ଫେରିବୁ |"
+            }
+        }    
+    }

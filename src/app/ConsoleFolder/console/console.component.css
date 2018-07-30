@@ -1,0 +1,27 @@
+mat-form-field {
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.toggleButton {
+    margin-bottom: 20px;
+}
+
+.mat-slide-toggle-content {
+    font-size: 24px!important;
+}
+
+label {
+    margin-top: 20px;
+    font-size: 2em;
+    color: black;
+    font-weight: bold;
+}
+
+mat-hint {
+    font-size: 12px;
+}
+
+mat-card-content {
+    margin-left: 2em;
+}

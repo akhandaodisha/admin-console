@@ -1,0 +1,22 @@
+.content {
+    background-color: #ffffff;
+    border-radius: 4px;
+    margin: auto;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 700px;
+    height: 300px;
+    font-size: 3em;
+    padding: 1em;
+}
+
+.icon {
+    margin-left: 40%;
+}
+
+.msg {
+    text-align: center;
+}

@@ -1,0 +1,123 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-12">
+      <mat-card>
+        <mat-card-title>{{ pageTitle }}</mat-card-title>
+        <mat-card-subtitle>
+          <strong>{{ pageSubtitle }}</strong>
+        </mat-card-subtitle>
+        <mat-card-content>
+          <!--Site Availability-->
+          <mat-slide-toggle [checked]="checked" class="toggleButton" (change)="onChange($event)" color="primary">Site Available</mat-slide-toggle>
+          <!--Cors Enable-->
+          <!-- <form [formGroup]="corsForm" (ngSubmit)="submitCorsForm()" autocomplete="off">
+      <mat-form-field>
+        <input matInput placeholder="corsEnableUrl" formControlName="corsEnableUrl">
+        <mat-hint>
+          <strong>This is the url to enable cross origin for twitter api</strong>
+        </mat-hint>
+      </mat-form-field>
+      <button mat-raised-button color="primary" type="submit">Save</button>
+    </form> -->
+          <!--Firebase Config-->
+          <!-- <form [formGroup]="firebaseConfigForm" (ngSubmit)="submitFirebaseConfigForm()" autocomplete="off">
+      <label>Firebase Config</label>
+      <br>
+      <mat-form-field>
+        <input matInput placeholder="apiKey" formControlName="apiKey">
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="authDomain" formControlName="authDomain">
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="databaseURL" formControlName="databaseURL">
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="projectId" formControlName="projectId">
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="storageBucket" formControlName="storageBucket">
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="messagingSenderId" formControlName="messagingSenderId">
+      </mat-form-field>
+      <button mat-raised-button color="primary" type="submit">Save</button>
+    </form> -->
+          <!--Wordpress Config-->
+          <!-- <form [formGroup]="wordpressConfigForm" (ngSubmit)="submitWordpressConfigForm()" autocomplete="off">
+      <label>Wordpress Config</label>
+      <br>
+      <mat-form-field>
+        <input matInput placeholder="wordpressUrl" formControlName="wordpressUrl">
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="per_page" formControlName="per_page">
+      </mat-form-field>
+      <button mat-raised-button color="primary" type="submit">Save</button>
+    </form> -->
+          <!--Facebook Config-->
+          <!-- <form [formGroup]="facebookConfigForm" (ngSubmit)="submitFacebookConfigForm()" autocomplete="off">
+      <label>Facebook Config</label>
+      <br>
+      <mat-form-field>
+        <input matInput placeholder="facebookUrl" formControlName="facebookUrl">
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="facebookPageId" formControlName="facebookPageId">
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="fields" formControlName="fields">
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="access_token" formControlName="access_token">
+      </mat-form-field>
+      <button mat-raised-button color="primary" type="submit">Save</button>
+    </form> -->
+          <!--Twitter Config-->
+          <!-- <form [formGroup]="twitterConfigForm" (ngSubmit)="submitTwitterConfigForm()" autocomplete="off">
+      <label>Twitter Config</label>
+      <br>
+      <mat-form-field>
+        <input matInput placeholder="twitterUrl" formControlName="twitterUrl">
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="screen_names" formControlName="screen_names">
+      </mat-form-field>
+      <button mat-raised-button color="primary" type="submit">Save</button>
+    </form> -->
+          <!--Youtube Config-->
+          <!-- <form [formGroup]="youtubeConfigForm" (ngSubmit)="submitYoutubeConfigForm()" autocomplete="off">
+      <label>Youtube Config</label>
+      <br>
+      <mat-form-field>
+        <input matInput placeholder="youtubeUrl" formControlName="youtubeUrl">
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="youtubeHeader_key" formControlName="youtubeHeader_key">
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="youtubeHeader_value" formControlName="youtubeHeader_value">
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="id" formControlName="id">
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="part" formControlName="part">
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="key" formControlName="key">
+      </mat-form-field>
+      <button mat-raised-button color="primary" type="submit">Save</button>
+    </form> -->
+          <form [formGroup]="configForm" (ngSubmit)="submitConfigForm()" autocomplete="off">
+            <div class="form-group">
+              <label for="configControlTextArea">Website Config</label>
+              <textarea class="form-control" id="configControlTextArea" rows="15" formControlName="configValue"></textarea>
+            </div>
+            <button mat-raised-button [color]="color" type="submit">{{ saveText }}</button>
+          </form>
+        </mat-card-content>
+      </mat-card>
+    </div>
+  </div>
+</div>

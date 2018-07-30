@@ -1,0 +1,65 @@
+.text {
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.subtitle {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    margin-top: -30px;
+}
+
+.bgimage {
+    text-shadow: 2px 2px 5px rgba(6, 6, 6);
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: -36px;
+}
+
+.logo > img {
+    width: 61px;
+    height: 51px;
+}
+
+.home-icon {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .text {
+        font-size: 4em;
+        text-align: center;
+        color: white;
+        font-weight: bold;
+    }
+
+    .subtitle {
+        font-size: 2em;
+        text-align: center;
+        color: white;
+        margin-top: -30px;
+    }
+
+    .logo {
+        text-align: center;
+        margin-bottom: -22px;
+    }
+    
+    .logo > img {
+        width: 118px;
+        height: 100px;
+    }
+
+    .home-icon {
+        display: block;
+        right: 30px;
+        bottom: 30px;
+        position: fixed;
+        z-index: 2;
+    }
+} 

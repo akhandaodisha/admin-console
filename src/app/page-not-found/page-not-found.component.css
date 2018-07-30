@@ -1,0 +1,19 @@
+.errorImage, errorMsg {
+    margin: 0 auto;
+}
+
+.errorContainer {
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.errorImage {
+    color: red;
+    padding-top: 2%; 
+}
+
+.errorMsg {
+    font-size: 3em;
+    padding: 2% 0;
+}
